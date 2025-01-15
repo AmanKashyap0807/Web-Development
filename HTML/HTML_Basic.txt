@@ -1,0 +1,16 @@
+***HTML***
+- Hyper text markup language
+- decide the formate/structure of a page where things going to take place on
+  
+**HTML ELEMENT**
+- the component used to design the structure of the website called tags
+- paragraph, headingm, image
+
+**HTML Tags**
+- A container for some content
+- <p> opening tags
+- </p> closing tags
+- <p> content </p> 
+- above complete name as html element
+
+
