@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLE</title>
+</head>
+
+<body>
+    <!--table is a collection of header ( main attribute of table ) row ( horizontal data ) and column ( vertical data )-->
+    <!--<table> tag will be used to create table-->
+    <!--<caption> tag will be used to create caption for the table which will take place above the table-->
+    <!--<tr> tag will be used to create the row-->
+    <!--to display data on row we will use <td> tag-->
+    <!--to display header <th>-->
+
+    <table border="black">
+        <caption>Krishna's GF Record</caption>
+        <tr>
+            <th>Name</th>
+            <th>duration</th>
+            <th>location</th>
+        </tr>
+        <tr>
+            <td>Payal</td>
+            <td>2 month</td>
+            <td>Bathena, Patan, Durg</td>
+        </tr>
+        <tr>
+            <td>Veena</td>
+            <td>4.5 month</td>
+            <td>Patan, Durg</td>
+        </tr>
+        <tr>
+            <td>Niharika</td>
+            <td>5-6 month</td>
+            <td>Bhilai nagar</td>
+        </tr>
+        <tr>
+            <td>Tanya</td>
+            <td>4-5 days</td>
+            <td>Patan, Durg</td>
+        </tr>
+        <tr>
+            <td><b>Mahi</b></td>
+            <td><b>1.5y-present</b></td>
+            <td><b>Changori, Durg</b></td>
+        </tr>
+    </table>
+
+    <!-- table semantics-->
+    <!--to organise table data properly for coding we wrap the dat in three tags-->
+    <!--<thead> tag will be used for header-->
+    <!--<tbody> tag will be used for body-->
+    <!--<tfoot> tag will be used for footer-->
+    <hr>
+    <!--Colspan and Rowspan : used to manipulate row and column like providing more than 1 row or column to any data-->
+    <!--Colspan: used to span a column across multiple cells-->
+    <!--Rowspan: used to span a row across multiple cells-->
+    <table border="black">
+        <caption>Food Menu</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Item</th>
+                <th colspan="2">Price</th>
+            </tr>
+            <tr>
+                <th>INR</th>
+                <th>USD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Pizza</td>
+                <td>250</td>
+                <td>150</td>
+            </tr>
+            <tr>
+                <td>Burger</td>
+                <td>150</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>French Fries</td>
+                <td>50</td>
+                <td>35</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+
+</html>
