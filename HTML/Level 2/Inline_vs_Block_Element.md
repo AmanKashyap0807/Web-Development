@@ -17,3 +17,14 @@
 - Paragraph element : block
 - Anchor Tag : inline
 - Image element : inline
+
+# type of tags 
+- there are two types of tags 
+- Semantic tags : tag which can be clearly understood by their name Ex. li, h, p, b, header, footer 
+- Non semantic tags : tag which can not be understood by their name Ex. span, div
+
+## Benefit of semantic tags
+- make the code meaningful and layout structured
+- SEO ( seach engine friendly )
+- make it more readable
+
