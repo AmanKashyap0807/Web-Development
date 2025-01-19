@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form elements</title>
+</head>
+
+<body>
+    <form action="/link.py">
+        <!--button element : to make the button which will be clicked and then a action will be performed-->
+        <button>submit</button>
+        <!--default behaviour of button is to pass the data to the action file or link-->
+
+        <!--Type attribute of button : for diffrenet type of button-->
+        <!--submit type : button to submit the data to action link or file-->
+        <button type="submit">submit</button>
+
+        <!--button type : it will just create a button without any action-->
+        <button type="button">click me</button>
+
+        <!--reset type : to reset the input data -->
+        <button type="reset">reset</button>
+
+        <!-- we can also create button element using input tag type attribute submit type of button type but it is not
+         asvisable to use-->
+
+        <!--the value passed from the form passes in the name-value pair to make it ease to access in backend-->
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="username" name="attribute">
+        <!-- like after submission above : file:///D:/link.py?attribute=arger-->
+        <!-- we can see that the data is passing in the form of attribute value pair-->
+
+        <!--the above metho passes the data in getrequest method whcih wil pass it in the form of link-->
+        <!--from the link the password can be seen so for the security perpous we will do anotehr method when we will learn javascript http protocols-->
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="password" name="attribute">
+        <!--herer is the example link : file:///D:/link.py?attribute=aman&attribute=21122004-->
+
+
+    </form>
+</body>
+
+</html>

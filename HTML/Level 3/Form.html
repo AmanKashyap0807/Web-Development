@@ -50,6 +50,26 @@
         <input type="reset" value="Reset">
         <!--we can also create select box and textarea-->
         <!--select box and textarea are multiple line input-->
+
+        <!--placeholder attribute : shown bfore filling the input-->
+        <input type="text" placeholder="Enter your name">
+        <hr>
+
+        <!--label attribute : it integrate the caption(text before the box) and the input area in one block-->
+        <label>
+            Username :
+            <input type="text" placeholder="Your Name">
+        </label>
+        <!--another benefit of label is it makes the block accessable so that i can get enter option even if i press in the caption-->
+
+        <!--In ideal case we do not write input line under label section, so map the label with input like we use for-id method-->
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="Your Name">
+        <!-- for is an label attribute to show that which input id to map-->
+        <!-- id is a css input attribute to give a unique name to a element-->
+
+        <!-- we will concise the code in section by using div tag-->
+
     </form>
 </body>
 
