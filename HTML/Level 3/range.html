@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Range input</title>
+</head>
+
+<body>
+    <!--sometimes the option are very big like 1 to 100 or 1000 so we use range-->
+    <form action="/server">
+        <div>
+            <label for="life">How much chutiyapa u have in your life</label>
+            <input type="range" id="life" name="life" min="10" max="100000">
+        </div>
+        <button type="submit">submit</button>
+        <!--if i want that the range must change in a fix sequence then step attribute is used-->
+        <div>
+            <label for="life">How much chutiyapa u have in your life</label>
+            <input type="range" id="life" name="life" min="10" max="100000" step="10000">
+        </div>
+    </form>
+</body>
+
+</html>
