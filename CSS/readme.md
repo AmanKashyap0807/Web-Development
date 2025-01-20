@@ -1,1 +1,2 @@
-Here is we are starting CSS
+- Used to describe the styling of the page
+- Cascading styles sheet
