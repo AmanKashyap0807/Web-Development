@@ -1,0 +1,17 @@
+h1 {
+    color: magenta;
+}
+
+h2 {
+    color: rgb(255, 0, 0);
+}
+
+h3 {
+    color: rgb(0, 255, 0);
+}
+
+h4 {
+    color: #f22fa5;
+}
+
+/* to get the correct color we can use color picker 

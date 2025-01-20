@@ -1,0 +1,33 @@
+h1 {
+    text-align: center;
+    /* text align is used to align text but it is relative to the area given for text like if the given area is half of the width
+    then it will be moved to lhs for center*/
+    text-decoration: wavy red underline;
+}
+
+h2 {
+    text-align: right;
+    text-decoration: blue line-through;
+}
+
+/* in case of arabic where we have to write text fromt he right of the page so we will use start and end */
+
+p {
+    text-align: justify;
+    /*it make the text so that every line is taking same area to make boundry clear */
+
+    /*Font weight to show light or bold range - 100 to 900*, normal font weight is set to 400 by default */
+    font-weight: 600;
+}
+
+/* for showing something relatively more border to something so we will be using bolder and lighter for lighter */
+
+/* text-decoration */
+/* 1.underline, 2.overline, 3.line-through */
+/* we can also cutomize the line, for that seach text decoration mdn on seach*/
+/* we can also change the style of decoration like wavy */
+/*one of its usage is to hide underline from the link of anchor tag */
+
+a {
+    text-decoration: none;
+}
