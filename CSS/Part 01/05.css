@@ -8,6 +8,7 @@ h1 {
 h2 {
     text-align: right;
     text-decoration: blue line-through;
+    font-size: 50px;
 }
 
 /* in case of arabic where we have to write text fromt he right of the page so we will use start and end */
@@ -18,6 +19,20 @@ p {
 
     /*Font weight to show light or bold range - 100 to 900*, normal font weight is set to 400 by default */
     font-weight: 600;
+
+    line-height: 2.5;
+    /*line height is used to manage spacing between lines, 1 is normal and according to that spacing number works*/
+    /*latter-spacing : same as line height but only for space between latter, but the input will be in pixel(px), it is a absoluteunit*/
+    /* there is also another unit like % whcih is relative means 50% means half of the area */
+    /* 96 pixel = 1 inche */
+    /* usually we do not use absolute unit because it is not flexible to responsiveness like if i want to be my website responsive for
+    different screen size so i will use relative pixel*/
+
+    /* Font family : it is used to give a font type to a element like arial, helvetic etc. */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* here we have written 5 different font families that if 1st is not supported on browser then it will look for 2nd, other 3rd 
+    or then for 4th or 5th */
+    /*explore cssfontstack.com */
 }
 
 /* for showing something relatively more border to something so we will be using bolder and lighter for lighter */
