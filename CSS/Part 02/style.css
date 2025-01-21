@@ -1,0 +1,85 @@
+/* Universal selection (*) */
+* {
+    font-family: 'Courier New';
+}
+
+/* Element selector */
+h1 {
+    color: #B92B27;
+}
+
+/* we can apply element selector for more than one at a time  by seperating each with comma*/
+h1,
+h3 {
+    font-size: 20px;
+}
+
+/* ID selector */
+#signup,
+#login {
+    background-color: #B92B27;
+    color: white;
+}
+
+/*sometimes we need to select a group of elements so that time we group them with same class names */
+/* Class selector */
+/* .follow {
+    color: blue;
+} */
+
+/* Descendant selector */
+/* the inner element are knows as descendants for the outer element */
+/*for this we first write the name of outer element then inner element to whcih we have to apply */
+/* let suppose i have to change color of all anchor tag under paragram block */
+/* p a {
+    color: aqua;
+    background-color: yellowgreen;
+} */
+
+/* this above is a method to style element under element but it will do it for all anchor under para which is not good*/
+/* so we will use element under class tag */
+.para a {
+    color: black;
+    background-color: aliceblue;
+}
+
+/* we can also go for 3 level descendants select */
+nav ul li {
+    color: blueviolet;
+    /* background-color: beige; */
+}
+
+/* we can also go for further 4 5 6 level descendants select */
+/* we can also write direct outer most and inner most element name to style element */
+
+/* Sibling combinator */
+/* used to style any element on the same level of another element */
+/* like in our html code there is immidiate h3 after every paragraph */
+p+h3 {
+    text-decoration: black underline;
+}
+
+/* we can use it with different cutomization as did in descendant selectors */
+.upvote-arrow+button {
+    color: greenyellow;
+    background-color: teal;
+}
+
+/* Child combinator */
+/* used to style immidiate chile element of a element */
+/* for example in my html code there is div and input whcih are on child parent relation */
+div>input {
+    /* color: green; */
+    background-color: darkgray;
+}
+
+/* remember it must be a immidiate child */
+
+/* attribute selectors */
+/* selecting any element on the basis of attibute value provided to it */
+input[type="text"] {
+    color: blue;
+}
+
+/* this will show difference while giving input */
+/* only attribute can be passed to select */
