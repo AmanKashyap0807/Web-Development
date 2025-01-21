@@ -83,3 +83,62 @@ input[type="text"] {
 
 /* this will show difference while giving input */
 /* only attribute can be passed to select */
+
+/* Pseudo class : to perform a change of style for a perticular action */
+/* hover effect : cursor position going to an element */
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* active : effect after clicking */
+/* checked : effect after checking a box or radio button */
+input[type="radio"]:active+label {
+    color: #B92B27;
+    font-weight: bold;
+}
+
+/* nth-of-type() : to apply the effect on the nth element which will be passed on open bracket */
+/* calculation of nth element will be based on simplings */
+
+/* pseudo element : used to show chnage in style in a perticular part of an element like first letter of a line or first line
+of the paragram */
+
+/* First letter : used to style in the first letter of the element */
+h1::first-letter {
+    color: green;
+}
+
+/* First line : used to style in the first line of the element */
+
+/* selection : used to style in the selected part of the element like lighting of para line when selected */
+h3::selection {
+    color: white;
+    background-color: black;
+}
+
+/* we have learnt stylesheet part but what is meaning of cascading */
+/* cascading meand the rules to apply the style on a css file */
+/* for example if we apply same style on a same element then the last one will be selected as final */
+h1 {
+    color: blue;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+/* Quora uora will be chnages to blueviolet bacause that was the last one to be styled */
+/* in case if two css file linked to a html file then the last one linked will be executed finally in case of similar element 
+similar styling */
+
+/* selector specificity : in case if we are applying same style on same element with different selector 
+then the priority order of the execution will be : id > class attribute or pseudo class > element or pseudo element
+means among 3 if there is id then it will be finalised style other class otherwise element */
+
+/* by hover the cursor on the css selector we can see its specificity, it will be something like _,_,_ and amongh these three we 
+will get like first fill will be for id, second will be for class and third will be for element */
+
+/* if there is tie up with the specificity then we will loop for cascading order */
+
+/* inline style has more priority then id */
