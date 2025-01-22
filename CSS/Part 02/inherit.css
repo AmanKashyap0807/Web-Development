@@ -1,0 +1,20 @@
+/* inheritence is similar nature of child from the parent 8*/
+/* like in css if there is a p inherited from li, li inherited from ul, ul inherited from div and we apply any style on div
+then it will be automatically styled on p also */
+
+#div1 {
+    background-color: wheat;
+}
+
+/* boxes and buttons are by default not get the style from inheritence */
+/* we will have to specify to inherit from parent */
+
+input,
+button {
+    background-color: inherit;
+}
+
+/* there are some properties which are not inheritable */
+
+/* for knowing that which color combination will be good for the website we case search for color palette */
+/* some popular website : coolors, canva, color space */

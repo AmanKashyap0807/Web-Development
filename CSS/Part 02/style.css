@@ -1,3 +1,8 @@
+header h1 {
+    color: #B92B27 !important;
+}
+
+
 /* Universal selection (*) */
 * {
     font-family: 'Courier New';
@@ -142,3 +147,6 @@ will get like first fill will be for id, second will be for class and third will
 /* if there is tie up with the specificity then we will loop for cascading order */
 
 /* inline style has more priority then id */
+
+/* in case if there is something very important which we do not want to change ever the  we use !important
+keyword, it gives that even more the the inline priority */
