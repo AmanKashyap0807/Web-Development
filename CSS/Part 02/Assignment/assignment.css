@@ -1,0 +1,38 @@
+#mainHeading {
+    color: blue;
+}
+
+* {
+    text-align: center;
+}
+
+.headings {
+    font-family: georgia;
+}
+
+.paras {
+    color: white;
+    background-color: cornflowerblue;
+}
+
+div button {
+    background-color: purple;
+    color: azure;
+}
+
+button:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+p:nth-of-type(odd) {
+    color: yellow;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+div #yes:checked+label {
+    color: darkgreen;
+}
