@@ -1,0 +1,65 @@
+/* whenever we make a div section then it creates a box for the element and we can manipulate that box height, width, border */
+
+div {
+    height: 200px;
+    width: 300px;
+    background-color: palegreen;
+}
+
+/* while inspect we will see the size as width_by_height */
+/* background color will be set on the background of the element */
+
+/* outer part of box area is knows as border */
+
+div {
+    border-width: 5px;
+    border-style: solid;
+    border-color: black;
+}
+
+/* we can also apply these on headings */
+h1 {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: red;
+}
+
+/* border creation shorthand */
+/* better way to create border */
+h1 {
+    border: 2px solid black;
+}
+
+/* we can also control the individual side of our border by using border-left/right/top/bottom */
+
+div {
+    border-right-color: red;
+    border-top-width: 20px;
+    border-bottom-style: dotted;
+    border-left: 50px dotted blue;
+}
+
+/* border radius : to create curve on edges of border */
+
+div {
+    border-radius: 20px;
+}
+
+/* we can also apply border radius to individual sides */
+/* for value of 50% it becomes a oval shape and in case of squre box border, it will be changed to a circle */
+div {
+    border-top-right-radius: 50%;
+}
+
+/* padding : to add space around the content inside the border */
+/* similar as border padding-top/bottom/left/right */
+/* shorthand for padding : padding, top&bottom|left&right, top|left&right|bottom, top|right|bottom|left */
+div {
+    padding: 4px 10px 8px 6px;
+}
+
+/* margin : to add space around the border */
+/* significance is to set distance between two element */
+
+/* same for margin like margin-top/bottom/right/left */
+/* shorthand are also same as padding */
