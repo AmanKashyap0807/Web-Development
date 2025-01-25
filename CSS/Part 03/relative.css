@@ -20,3 +20,31 @@
     /* of parent div height as well as width */
     background-color: pink;
 }
+
+/* em is used to set font size as relative to the parent/self font size */
+.outer {
+    font-size: 20px;
+}
+
+.inner {
+    font-size: 1.5em;
+    /* for double font size */
+    /* less then one will be smallar size */
+
+    /* we can set our padding to exactly same as font size */
+    padding: 1em;
+}
+
+/* snowball effect of em, while applying on more nested elements 
+it keep do double elements continuly whereas we only want that
+the element after first nesting get every same style */
+div {
+    font-size: 2em;
+}
+
+
+/* to solev this proble we have rem */
+/* it set the size relative to the root element */
+div {
+    font-size: 2rem;
+}
