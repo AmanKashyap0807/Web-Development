@@ -1,0 +1,33 @@
+#boxShadow {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    box-shadow: 2px 2px 10px rgb(223, 82, 82);
+    /* shadow_length_in_x_axiz y_axiz blur_radius blur_color */
+}
+
+#backimage {
+    margin: 20px;
+    height: 1080px;
+    width: 720px;
+    background-image: url(vvqgcdp39x551.webp);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    /* Keep the element in place */
+    display: flex;
+    /* Flexbox helps position text inside the element */
+    justify-content: flex-end;
+    /* Align horizontally to the right */
+    align-items: flex-end;
+    /* Align vertically to the bottom */
+    padding: 10px;
+    /* Optional: Add spacing around the text */
+    color: white;
+    /* to manage the background image */
+    /*background-size: contain/cover/auto*/
+    /* contain - repeat the image to set
+    cover - crop the image to set with background 
+    auto - stretch the image to fit in background */
+    /* background-size: contain; */
+    background-size: auto;
+}

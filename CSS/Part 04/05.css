@@ -1,0 +1,33 @@
+.normal {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    margin: 0px 20px 0px 0px;
+    display: inline-block;
+}
+
+/* Position - static/relative/absolute/fixed*/
+/* static - can not be changes, default value of any element */
+#static {
+    position: static;
+    top: 50%;
+    left: 500000px;
+    /*above both will not effect the position */
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    display: inline-block;
+
+}
+
+/* relative - it change the position reltive the position itself */
+#relative {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    /* the position will be changes to the position of the element itself */
+    display: inline-block;
+}
