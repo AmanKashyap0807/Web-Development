@@ -1,0 +1,35 @@
+#base {
+    height: 200px;
+    width: 200px;
+    background-color: plum;
+    display: inline-block;
+}
+
+#base:hover {
+    background-color: bisque;
+    transition-duration: 2s;
+    /* changing time */
+    border-radius: 50%;
+    transition-delay: 2s;
+    /* changing delay/wait */
+}
+
+/* also we have some function attribute names transition-timing-function
+for different type of transition */
+
+/* short hand for transition creation
+transition : transition_name duration ease/ease-in/ease-in-out delay */
+
+#shorthand {
+    height: 100px;
+    width: 100px;
+    background-color: mediumspringgreen;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#shorthand:hover {
+    background-color: red;
+    margin-top: 250px;
+    transition: margin-top 1s ease-in-out 0.2s;
+}

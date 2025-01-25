@@ -1,0 +1,18 @@
+/* Alpha value of rgba is used to set visibility of elements
+range : 0 to 1 */
+span {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* alpha value in hex code will be from 00 to ff which will be plaeces in the end
+like #ffffffff, 00 means completly tarnparant*/
+
+/* alpha only sets the visibility of color components 
+but opacity will be for complete element visibility */
+
+.opacity {
+    height: 40px;
+    color: blue;
+    background-color: black;
+    opacity: 0.65;
+}

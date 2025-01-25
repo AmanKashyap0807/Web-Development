@@ -1,0 +1,98 @@
+#rotate {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#rotate:hover {
+    transform: rotate(45deg);
+    transition: transform 0.75s ease 0.2s;
+}
+
+/* transform will perform transformations to each element */
+
+#rotateOnly {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(98, 13, 92);
+    margin-top: 50px;
+    margin-left: 50px;
+    transform: rotate(75deg);
+    /* it will roate the complete element */
+}
+
+/* for applying size manupulation according to actual size */
+#scale {
+    height: 100px;
+    width: 100px;
+    background-color: lightcoral;
+    margin-top: 50px;
+    margin-left: 50px;
+    /* transform: scale(1.5); */
+}
+
+#scale:hover {
+    transform: scale(1.5);
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+
+/* we can also scale accordingly axis */
+#scale2 {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#scale2:hover {
+    transform: scale(0.5, 2);
+}
+
+/* for only transforming according to X axis use scaleX instead of scale
+same for Y axis *scale2 */
+
+/* translate value of transform is used to move a element */
+#translate {
+    height: 100px;
+    width: 100px;
+    background-color: darkmagenta;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#translate:hover {
+    transform: translate(100px, 100px);
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+
+}
+
+/* we can also do it accroding to axis specific like translateX and translateY*/
+
+#skew {
+    height: 100px;
+    width: 100px;
+    background-color: darkgreen;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+#skew:hover {
+    transform: skew(45deg);
+}
+
+/* we can also do the above with combination */
+#combination {
+    height: 100px;
+    width: 100px;
+    background-color: darkblue;
+    margin-top: 50px;
+    margin-left: 50px;
+    transform: rotate(45deg) scale(1.5) translate(100px, 100px) skew(45deg);
+}
+
+/* we also have another properties of transform can be searched from mdn */
