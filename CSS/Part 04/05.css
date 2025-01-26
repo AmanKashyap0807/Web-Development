@@ -31,3 +31,11 @@
     /* the position will be changes to the position of the element itself */
     display: inline-block;
 }
+
+/* for absolute positioning - there is no space will be created in the page for it and also 
+it will be positioned relative to the parent element or if not any parent element exists then
+ it will be positioned relative to the body of the document */
+
+
+/* fixed positioning - will be relative to the complete page but while scrolling the page it will be 
+positioned to the same place and will move with us */
