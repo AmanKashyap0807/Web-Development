@@ -1,3 +1,6 @@
+/* For practice flex, just go to the website names Flexbox Froggy
+that 24 level game is enough for the practce */
+
 #container {
     height: 300px;
     width: 50%;
@@ -19,10 +22,25 @@
     (1) go for to the end of main axis 
     (2) pass to the end direction of the cross axis */
 
-    flex-wrap: wrap-reverse;
+    /* flex-wrap: wrap-reverse; */
     /* start from the start of the main axis and end of the cross axis */
     /* (1) go for to the end of main axis 
     (2) pass to the start direction of the cross axis */
+
+    /* align-items: flex-end; */
+    /* decide the place of the complete flex item in the flex container */
+    /* flex-end to the end of the flex
+    flex-start : place from the start of the flex
+    baseline for different size of flex items, place them in a common baseline */
+
+    /* justify content do the spacing/positioning stuff in the main axis
+    but what if we want it in the cross axis, then we use align content*/
+    align-content: center;
+    /* values of the align content will be as same as justify content */
+
+    /* align self - used to position any specific items according to the cross axis */
+    /* values will be same as align items */
+    /* and also align self will be declared specificly in different item blocks */
 }
 
 .box {
