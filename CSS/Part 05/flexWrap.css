@@ -1,0 +1,40 @@
+#container {
+    height: 300px;
+    width: 50%;
+    border: 1px solid black;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    /*for bigger size the flex element will manage in the main axis only 
+    to make it even they will auto reduce their size for fitting */
+    /* what if we want that the wrap up the rest thing in another line 
+    instead of reducing the size of the flex element*/
+
+    /* flex-wrap: nowrap;  */
+    /* the above is the defauylt value of the */
+
+    /* flex-wrap: wrap; */
+    /* start from the start of main and cross asix then 
+    (1) go for to the end of main axis 
+    (2) pass to the end direction of the cross axis */
+
+    flex-wrap: wrap-reverse;
+    /* start from the start of the main axis and end of the cross axis */
+    /* (1) go for to the end of main axis 
+    (2) pass to the start direction of the cross axis */
+}
+
+.box {
+    height: 100px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,54 @@
+/* FlexBox - Flexible box layout 
+used to flexibly change the position of any element */
+/*it is required for responsiveness of web pages */
+
+/* let suppose there is 3 div box elements under one parent div box element
+then if we declare the parent div as display:flex then the parent box will be knows 
+as flex container and the under element will be knows as flex item */
+/* the flex item can not overflow from the flex container */
+#container {
+    height: 300px;
+    width: 75%;
+    border: 1px solid black;
+    margin: 10px auto;
+    display: flex;
+    /* by default while declaring it flex it goes to flex direction rows */
+    /* for row the main axis direction will be from left to right */
+    /* for row reverse direction it will be from right to left */
+    /* flex-direction: column; */
+    /* flex direction declare our main axis and the opposite direction will become cross axis */
+    /* for column direction the dierection of main axis will be from top to bottom */
+    /* for column reverse direction the dierection of main axis will be from bottom to top */
+    /* flex-direction: row-reverse; */
+    /* in case of reverse the sequnce of elements will also be reversed */
+    flex-direction: row-reverse;
+    /* justify-content: flex-start; */
+    /* flex-direction only decide the direction of the axis and main or cross direction 
+    but justify content will set the actual positoini of the flex items */
+    /* flex-start it will set the position of the flex item from the start of the main asix
+    direction
+    flex-end will set it to end of the main axis
+    centre will seet it to centre  */
+    /* if there is chance of space between element then 
+    space-between : will give space between each element to set it to container */
+    justify-content: space-between;
+    /* space-around, space-evenly */
+    /* evenly : even spaace distribution even on the corner of complete flex items */
+    /* around : the corner/around of the complete flex items will be half of the  */
+    /* space between the flex elements */
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    height: 50px;
+    width: 50px;
+    /* the given width will overflow so it will resize it accordingly itself*/
+    /* but for a size which does not overflow will contain the given size unser the container */
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 500;
+}
