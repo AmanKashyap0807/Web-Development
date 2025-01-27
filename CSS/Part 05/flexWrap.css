@@ -2,12 +2,12 @@
 that 24 level game is enough for the practce */
 
 #container {
-    height: 300px;
+    height: 400px;
     width: 50%;
     border: 1px solid black;
     margin: 10px auto;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
     /*for bigger size the flex element will manage in the main axis only 
     to make it even they will auto reduce their size for fitting */
@@ -35,7 +35,7 @@ that 24 level game is enough for the practce */
 
     /* justify content do the spacing/positioning stuff in the main axis
     but what if we want it in the cross axis, then we use align content*/
-    align-content: center;
+    /* align-content: center; */
     /* values of the align content will be as same as justify content */
 
     /* align self - used to position any specific items according to the cross axis */
@@ -44,7 +44,7 @@ that 24 level game is enough for the practce */
 }
 
 .box {
-    height: 100px;
+    height: 50px;
     width: 200px;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -56,3 +56,55 @@ h1 {
     text-align: center;
     margin-bottom: 10px;
 }
+
+/* flex-basis : used to set size along to the main axis */
+/* it sets the initial size of the flex items */
+
+.box:nth-child(1) {
+    flex-basis: 200px;
+}
+
+.box:nth-child(2) {
+    flex-basis: 300px;
+}
+
+/*flex-grow: set the size of individual according to the space left in main axis */
+/* 1 is default, further 2,3,4,0.5,0.75 set the size of a individual by maintaining the antoher flex item size which is also
+mentioned as flex-grow*/
+
+.box:nth-child(3) {
+    /* flex-grow: 1; */
+}
+
+.box:nth-child(4) {
+    /* flex-grow: 2; */
+}
+
+/* of the rest of the space the 4th one will take double of 3rd one */
+
+/* we can also limit the width of the flex items */
+
+.box:nth-child(1) {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.box:nth-child(2) {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+/* in case of overflow we can also  shrink the flex items as we hav grown it */
+
+.box:nth-child(5) {
+    flex-shrink: 1;
+}
+
+.box:nth-child(6) {
+    flex-shrink: 2;
+}
+
+/* if a individual is given flex-shrink 2 then that will shrink 2 times the anothe flex-shrink item or container */
+
+/* remember above work across the main axis */
+/* change in main axis will change the size also */
