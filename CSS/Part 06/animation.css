@@ -3,8 +3,8 @@
     height: 100px;
     background-color: red;
     position: relative;
-    animation-name: move;
-    animation-duration: 0.25s;
+    animation-name: move2;
+    animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-delay: 0.25s;
     animation-iteration-count: infinite;
@@ -21,5 +21,33 @@
     to {
         left: 200px;
         background-color: darkblue;
+    }
+}
+
+/* instead of only 2 state we can also create more then 2 state by using percantage */
+@keyframes move2 {
+    0% {
+        left: 0px;
+        background-color: aqua;
+    }
+
+    25% {
+        left: 200px;
+        background-color: darkblue;
+    }
+
+    50% {
+        left: 400px;
+        background-color: darkgreen;
+    }
+
+    75% {
+        left: 200px;
+        background-color: darkred;
+    }
+
+    100% {
+        left: 0px;
+        background-color: aqua;
     }
 }

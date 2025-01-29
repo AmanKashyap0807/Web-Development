@@ -1,0 +1,36 @@
+/* Media query : used to handle the responsiveness of the web page */
+
+h1 {
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+@media (max-width: 400px) {
+
+    /*max-width: 400px means when the width of the screen is less than 400px then the below css will be applied */
+    h1 {
+        background-color: red;
+        color: white;
+    }
+}
+
+/* min-width : when the width of the screen is greater than 400px then the below css will be applied */
+
+
+
+/*combintaiont of condition */
+@media (max-width: 400px) and (min-width: 200px) {
+    h2 {
+        background-color: green;
+        color: white;
+    }
+}
+
+
+/* media query for orientation */
+@media (orientation: landscape) {
+    h3 {
+        background-color: yellow;
+        color: black;
+    }
+}
