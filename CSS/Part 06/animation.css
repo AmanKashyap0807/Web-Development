@@ -1,0 +1,25 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: move;
+    animation-duration: 0.25s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0.25s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* animation: move 2s infinite alternate; */
+}
+
+@keyframes move {
+    from {
+        left: 0px;
+        background-color: aqua;
+    }
+
+    to {
+        left: 200px;
+        background-color: darkblue;
+    }
+}
