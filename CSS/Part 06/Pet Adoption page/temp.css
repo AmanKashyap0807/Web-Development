@@ -1,0 +1,40 @@
+/* its just for practice where i am just copying what is given */
+
+h2 {
+    color: brown;
+}
+
+h1 span {
+    color: rgb(144, 232, 13);
+}
+
+#pets {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.card {
+    width: 400px;
+    height: 600px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 0px 7.25% 0px 7.25%;
+    border-radius: 10%;
+}
+
+img {
+    width: 90%;
+    height: 30%;
+    margin: 10px 5% 0px 5%;
+    border-radius: 15%;
+}
+
+h3 {
+    font-weight: 600px;
+    margin: 10px 0px 0px 5%;
+}
+
+p {
+    margin: 10px 10px 0px 5%;
+}

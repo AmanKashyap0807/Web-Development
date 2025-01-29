@@ -1,0 +1,10 @@
+/* sometimes different items overlap each other 
+and a types of level or stack created by z-index property */
+
+/* by default value of z index for all elements is 0 */
+
+/* z index does not work with the elements which are static
+or with the elements which are not positioned */
+
+/* positive and higher z index represent that the element is upper in the 
+stack or the position */
