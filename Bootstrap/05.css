@@ -1,0 +1,9 @@
+/* Adds some space above the form */
+form {
+    margin-top: 20px;
+}
+
+/* Example of a color override for text */
+.text-success {
+    color: green;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <!-- .container centers stuff and helps with responsive layout -->
+    <div class="container mt-4">
+        <!-- .mt-4 just adds some breathing room on top -->
+        <h3>Registration Form</h3>
+        <form>
+            <div class="mb-3">
+                <!-- .mb-3 adds a bit of space below -->
+                <!-- .form-label is a default label style -->
+                <!-- .form-control gives basic styling to inputs -->
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter name">
+            </div>
+            <div class="mb-3">
+                <!-- .mb-3 adds a bit of space below -->
+                <!-- .form-label is a default label style -->
+                <!-- .form-control gives basic styling to inputs -->
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <div class="mb-3">
+                <!-- .mb-3 adds a bit of space below -->
+                <!-- .form-label is a default label style -->
+                <!-- .form-select is used to style select fields -->
+                <label for="role" class="form-label">Role</label>
+                <select class="form-select" id="role">
+                    <option value="student">Student</option>
+                    <option value="teacher">Teacher</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <!-- .mb-3 adds a bit of space below -->
+                <!-- .form-label is a default label style -->
+                <!-- .form-check is for radio/checkbox wrappers -->
+                <!-- .form-check-input styles the input, .form-check-label styles associated labels -->
+                <label class="form-label">Newsletter:</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="newsletter" id="radioYes" checked>
+                    <label class="form-check-label" for="radioYes">Yes</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="newsletter" id="radioNo">
+                    <label class="form-check-label" for="radioNo">No</label>
+                </div>
+            </div>
+            <div class="mb-3">
+                <!-- .mb-3 adds a bit of space below -->
+                <!-- .form-label is a default label style -->
+                <!-- .form-check is for radio/checkbox wrappers -->
+                <!-- .form-check-input styles the input, .form-check-label styles associated labels -->
+                <label class="form-label">Interests:</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="checkCoding">
+                    <label class="form-check-label" for="checkCoding">Coding</label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="checkDesign">
+                    <label class="form-check-label" for="checkDesign">Design</label>
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+            <!-- .btn and .btn-primary provide a Bootstrap-styled button -->
+        </form>
+    </div>
+</body>
+
+</html>

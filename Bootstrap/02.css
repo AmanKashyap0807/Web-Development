@@ -1,0 +1,68 @@
+/* ...existing code... */
+
+.navbar {
+    background-color: #E6F9E9;
+    border-radius: 6px;
+}
+
+.nav-link.active {
+    font-weight: bold;
+    color: #355C7D;
+}
+
+.btn-outline-success {
+    color: #355C7D;
+    border-color: #355C7D;
+}
+
+.btn-outline-success:hover {
+    background-color: #355C7D;
+    color: #fff;
+}
+
+.form-control.rounded-pill,
+.btn-outline-success.rounded-pill {
+    border-radius: 50px !important;
+}
+
+.dropdown-menu {
+    border: 2px solid #355C7D;
+    background-color: #E6F9E9;
+}
+
+.nav-link.dropdown-toggle:hover {
+    animation: shake 0.5s;
+    outline: none;
+    /* Remove the default focus outline */
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.shake {
+    animation: shake 0.5s;
+}
+
+.dropdown-item:hover {
+    color: white;
+    background-color: black;
+}
