@@ -1,1 +1,2 @@
-Part 02
+- **console.log()** : print string, variable : for multiple things we can seprate by comma and space will be automatically made
+- 
