@@ -52,3 +52,22 @@ else { console.log("stop"); }
 // Logical AND : && : both side must be true to return true
 // Logical OR : || : atleast one side must be true to return true
 // Logical NOT : ! : return negation of boolean
+
+
+
+// Truthy and Falsy
+// Everyhting in JS is boolean either true or farlse
+//  0, empty string, null, undefined, Nan and false itself is false
+// anotehr things are true including true
+
+
+
+// Switch statement 
+let name = "aman";
+switch (name) {
+    case "aman":
+        console.log("yeah baby!");
+        break;
+    default:
+        console.log("No baby!");
+}
