@@ -49,3 +49,6 @@ let str5 = "I Love Coding";
 console.log(str5.replace("Love", "Eat"));
 
 // repeat() : Returns a new string with a specified number of copies of an existing string.
+let str6 = "Hmm";
+console.log(str6.repeat(5));
+
