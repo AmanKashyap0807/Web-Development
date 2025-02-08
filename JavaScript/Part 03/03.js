@@ -23,3 +23,12 @@ arr.push(4); // works
 // but the elements of array can be changed
 // it means we can't reassign the array but we can change the elements of array
 
+
+// Nested Array
+let nested = [[1, 2], [3, 4], [5, 6]];
+console.log(nested[0][1]); // 2
+
+// visualization of nested array
+// it can be visualized as 2D array
+// row = number of array present in the array
+// column = number of elements present in the array of array
