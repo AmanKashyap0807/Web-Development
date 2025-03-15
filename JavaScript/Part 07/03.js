@@ -12,3 +12,8 @@ const add = (a, b) => {
 };
 
 console.log(add(2, 3));
+
+// Implict return
+
+const add2 = (a, b) => a + b;
+console.log(add2(2, 3));
