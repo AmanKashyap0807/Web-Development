@@ -32,11 +32,11 @@ for (let i = 0; i < p_tagObj.length; i++) {
     console.dir(p_tagObj[i]);
 }
 console.dir(p_tagObj);
-setTimeout(() => {
-    for (let i = 0; i < p_tagObj.length; i++) {
-        p_tagObj[i].innerText = "Updated paragraph";
-    }
-}, 2000);
+// setTimeout(() => {
+//     for (let i = 0; i < p_tagObj.length; i++) {
+//         p_tagObj[i].innerText = "Updated paragraph";
+//     }
+// }, 2000);
 
 /*function greet(name, message) {
   console.log(`Hello ${name}, ${message}`);
