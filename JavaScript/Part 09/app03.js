@@ -1,6 +1,8 @@
 // Manipulation of objects
 // using preperties and methods
 
+// mostly for manipulation of text 
+
 // innerText : shows the visible text contained in the node
 // innerHTML : shows the HTML markup content of the node
 // textContent : shows the text content of the node (including hidden content)

@@ -4,8 +4,22 @@
 // obj.classList.remove('className') : remove the class name from the object
 // obj.classList.toggle('className') : if class name is there then remove it else add it
 // obj.classList.contains('className') : check if class name is there or not
- 
+
 // sometimes we need to change a lot of a object so we make a classs with those changes in css
 // and then we add that class to the object
 
 // we can not use setattribute to chnage because it consider only one value of the aatribute
+
+console.log("=====================================");
+
+// parentElement property
+// obj.parentElement : return the parent element of the object
+// only one parent element is returned
+
+// children property
+// obj.children : return the children of the object
+// it returns the HTMLCollection of the children
+
+// childelementcount property
+// obj.childElementCount : return the number of children of the object
+
