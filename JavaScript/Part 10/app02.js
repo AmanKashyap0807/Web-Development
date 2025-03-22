@@ -23,3 +23,5 @@ btn2.addEventListener('click', function () {
 btn2.addEventListener('dblclick', function () {
     alert('2nd Button double clicked');
 });
+
+// click event is also for elements like para 
