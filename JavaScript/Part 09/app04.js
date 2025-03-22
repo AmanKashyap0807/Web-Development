@@ -32,7 +32,7 @@ console.log("=====================================");
 let boxDiv = document.querySelector('.box');
 let innerList = document.querySelectorAll('ul li ul li a');
 // innerList.style.color = 'red';
-// this above line will not run because stle applies on sigle object not a node list
+// this above line will not run because style applies on sigle object not a node list
 
 for (let i = 0; i < innerList.length; i++) {
     innerList[i].style.color = 'red';

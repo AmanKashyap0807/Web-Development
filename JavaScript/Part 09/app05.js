@@ -23,3 +23,15 @@ console.log("=====================================");
 // childelementcount property
 // obj.childElementCount : return the number of children of the object
 
+// nextElementSibling property
+// obj.nextElementSibling : return the next sibling of the object
+
+// previousElementSibling property
+// obj.previousElementSibling : return the previous sibling of the object
+
+let me = document.querySelectorAll('div ul li');
+console.dir(me);
+
+console.log(`next subling of the me[1] is ${me[1].nextElementSibling}`);
+console.log(`previous subling of the me[1] is ${me[1].previousElementSibling}`);
+console.log(me[1].nextElementSibling);
