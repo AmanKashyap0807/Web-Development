@@ -24,4 +24,8 @@ btn2.addEventListener('dblclick', function () {
     alert('2nd Button double clicked');
 });
 
-// click event is also for elements like para 
+// click event is also for elements like para
+
+// this : it is a keyword that refers to the object that is executing the current function
+// obj.addEventListener('click', function () {}) this used in function will provide the button itself
+
