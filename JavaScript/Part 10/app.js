@@ -3,6 +3,8 @@
 // incline event listen code : even code is written in html file
 // do not prefer due to increase in the size of html file
 
+// open inspect->console to see the output
+
 let btn = document.querySelector('button');
 console.dir(btn);
 // on above command result there will be different things/property of btn
