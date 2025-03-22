@@ -35,3 +35,9 @@ console.log("-----------------------------------------------");
 // it include even a small change in the input field like typing a and the m then the event will be triggered
 // non character key does not operate it
 
+console.log("-----------------------------------------------");
+
+// event bubbeling
+// when we apply a event on nested obj and for the same event its parent also has a funtion then while clicking nested elements
+// both will be executed
+// to stope it there is a method in event named event.stopPropagation()
