@@ -42,19 +42,69 @@ document.addEventListener('DOMContentLoaded', function () {
         task.focus();
     });
 
+    let count = 0;
     function taskAdd() {
-        let li = document.createElement("li");
-        li.textContent = task.value
-        list.appendChild(li);
-        task.value = "";
+        if (task.value.trim() !== "") {
+            // Create elements
+            let li = document.createElement("li");
+            li.classList.add("task-item", "d-flex", "justify-content-between", "align-items-center", "mb-2");
+
+            let div = document.createElement("div");
+            div.classList.add(`task-${count}`, "task-text");
+            div.textContent = task.value;
+
+            let btn = document.createElement("button");
+            btn.textContent = "Done!";
+            btn.classList.add("btn", "btn-sm", "btn-outline-success", "ms-2", "done-btn");
+            btn.style.marginLeft = "10px";
+
+            // Correct way to append elements
+            li.appendChild(div);
+            li.appendChild(btn); // Button should be sibling of div, not inside it
+            list.appendChild(li);
+
+            // Clear input field
+            task.value = "";
+            count++;
+
+        } else {
+            alert("Please enter a task");
+            return; // Don't continue if no task text
+        }
+
+        // Return to main view
         content.style.display = "block";
         inputPage.style.display = "none";
     }
 
+    // Add task when button is clicked
     addBtn.addEventListener('click', taskAdd);
+
+    // Add task when Enter key is pressed
     task.addEventListener('keydown', function (event) {
         if (event.key === "Enter") {
             taskAdd();
         }
-    })
+    });
+
+    // Fix the event listener for Done buttons
+    list.addEventListener('click', function (event) {
+        // Check if the clicked element is a "Done" button
+        if (event.target.classList.contains('done-btn')) {
+            const taskDiv = event.target.previousElementSibling; // Get the task text div
+
+            // Toggle strikethrough
+            if (taskDiv.style.textDecoration === "line-through") {
+                taskDiv.style.textDecoration = "none";
+                taskDiv.style.opacity = "1";
+                event.target.textContent = "Done!";
+                event.target.classList.replace("btn-outline-secondary", "btn-outline-success");
+            } else {
+                taskDiv.style.textDecoration = "line-through";
+                taskDiv.style.opacity = "0.7";
+                event.target.textContent = "Undo";
+                event.target.classList.replace("btn-outline-success", "btn-outline-secondary");
+            }
+        }
+    });
 })

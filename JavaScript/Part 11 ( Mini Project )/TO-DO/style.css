@@ -35,3 +35,32 @@
     align-items: center;
     position: fixed;
 }
+
+#list {
+    width: 30%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+#list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.task-text {
+    flex: 1;
+    word-break: break-word;
+}
+
+.done-btn {
+    min-width: 80px;
+    margin-left: 10px !important;
+}
