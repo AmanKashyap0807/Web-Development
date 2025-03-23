@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+#mainBox {
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+h1,
+h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 6px 20px;
+    border-radius: 10%;
+}
+
+#div1 {
+    background-color: red;
+}
+
+#div2 {
+    background-color: green;
+}
+
+#div3 {
+    background-color: yellow;
+}
+
+#div4 {
+    background-color: blue;
+}
