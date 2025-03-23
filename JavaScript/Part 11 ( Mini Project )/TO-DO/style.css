@@ -10,3 +10,19 @@
     align-items: center;
     position: fixed;
 }
+
+#addBtn {
+    position: fixed;
+    bottom: 100px;
+    left: 50%;
+    z-index: 100;
+}
+
+#addBtn button {
+    height: 60px;
+    width: 60px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
