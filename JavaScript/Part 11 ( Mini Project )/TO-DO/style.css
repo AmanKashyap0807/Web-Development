@@ -26,3 +26,12 @@
     align-items: center;
     justify-content: center;
 }
+
+#taskInput {
+    height: 100%;
+    width: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
