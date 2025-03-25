@@ -1,4 +1,4 @@
-// await keyword : used to wait for the promise to be resolved or rejected and then continue the execution
+// await keyword : used to wait for the promise to be resolved and then continue the execution
 // it can only be used under a async funtion
 
 // why are we using settimeout till Now
