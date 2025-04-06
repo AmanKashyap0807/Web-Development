@@ -3,6 +3,7 @@
 // two step process : first write the data in file which is going to be exported by using module.exports = ...
 // second is to get it in another file by using require("<file path>")
 // the above return a object which the info exported and mentioned in that file
+// modile.exports return the value which is shared by the file it can be anyting like string, number, array, object, function
 
 // we have made samepleForN03 file for practicing here
 
