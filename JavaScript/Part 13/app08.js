@@ -19,3 +19,6 @@ async function getFact2(url) {
     console.log(res);
 }
 getFact2(url);
+
+
+// use try catch block to handle errors
