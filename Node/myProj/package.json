@@ -1,0 +1,12 @@
+{
+  "name": "proj",
+  "version": "199.199.199",
+  "description": "the main project arise from your viewpoint change it to solve it",
+  "license": "ISC",
+  "author": "Yaman_Ka_Sahjada",
+  "type": "commonjs",
+  "main": "back.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
