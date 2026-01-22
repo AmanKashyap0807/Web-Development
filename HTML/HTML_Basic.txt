@@ -12,5 +12,3 @@
 - </p> closing tags
 - <p> content </p> 
 - above complete name as html element
-
-
