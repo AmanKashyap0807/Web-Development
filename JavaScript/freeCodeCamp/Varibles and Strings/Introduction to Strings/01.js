@@ -7,8 +7,10 @@ console.log(Name + ' ' + lastName);
 // if a string start with single quote then it must end with same
 
 // string are immutable 
-// let Name = "kanha";
-// console.log(Name);
-// if a string is declared then it can not be redeclare
-// since strings are immutable we can not change the value of Name again
+Name = "kanha";
+console.log(Name);
+// if a string is declared, it's characters can not be changed however we can still reassign string to it; 
 
+Name[1]="b";
+console.log(Name);
+// that is why it's immutable
